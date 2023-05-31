@@ -1,0 +1,13 @@
+Nodes in a ree are only links between other nodes. Data storage can take the form of a binary tree. In a binary tree, each leaf node can only have two leaf nodes as its children. The ROOT, the PATH, and the CHILD nodes make up any basic binary tree. The first node in a tree is called the root node. There can be only one root node in a tree, and only one way for any other node to reach the root. The edge path is the ordered set of nodes along the tree's edges. A node's child is the lowest level node related to it via a directed edge. There are two distinct kinds of kid nodes: LEFTCHILD and RIGHTCHILD. The rightchild node is the one having a bigger value than its parent node, as defined by the Binary Search Tree Representation. Meanwhile, any node other than the root that has an upward-pointing edge is considered a Parent node. The terminal or tail node of a binary tree is called a leaf node since it has no children. A node's offspring make up its subtree. When control is at a node, the value of the node is what is being checked during a visit. The key to a successful traversal is to move through the nodes in the specified order.
+
+The fundamental functions of a Binary Search Tree (BST) are as follows: Insertion: adding something to an existing tree, or making a new tree. Searching for a node in a tree structure. A preorder traversal is one that follows a predetermined sequence across a tree. The process of moving through a tree in the same order as it was created. Postorder Traversal refers to going through a tree in a backwards order.
+
+The first insert operation in a tree is to actually form the tree itself. Finding the right place in a tree to introduce a node is the first step. If the target value is smaller than the root value, look for an empty node or subtree to the left of the root and put the data or element there. If there isn't already an element or piece of data in that spot, find the appropriate subtree or node and add it there.
+
+Searching for something in a tree? Head straight for the trunk. If the element's value is smaller than the root node's, look for it in the left subtree or node. Otherwise, you aren't looking in the correct subtree or node for the element.
+
+In preorder traversal, the starting point is the root node, then the leftmost node in the tree, and lastly the rightmost node in the tree is visited.
+
+In an inorder traversal, the node or subtree to the left is visited first, followed by the root node, and then the node or subtree to the right.
+
+Postorder Operation is a way of traversing a tree in which nodes on the left side of the tree are visited first, followed by those on the right, and lastly the root.
